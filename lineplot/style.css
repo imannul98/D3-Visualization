@@ -1,0 +1,36 @@
+body {
+  font: 10px sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#lineplot-container, #paragraph-container {
+  display: block;
+}
+.outer,
+.inner {
+  shape-rendering: crispEdges;
+}
+
+.outer {
+  fill: none;
+  stroke: #000;
+}
+
+.inner {
+  fill: whitesmoke;
+  stroke: #000;
+  stroke-dasharray: 3, 4;
+}
+
+#scatterplot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}

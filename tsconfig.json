@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    /* Linting. Disable to make type checking lenient */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+
+    /* More type checking settings: https://www.typescriptlang.org/tsconfig#strict. Some of them are:
+    "alwaysStrict": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "strictFunctionTypes": false,
+    */
+  },
+  "include": ["./tutorial/**/*.ts", "./exercise/**/*.ts", "exercise/utils.js", "exercise/index.js", "exercise/index.js", "tutorial/for_vs_enter/index.js", "exercise/solution.ts"]
+}
